@@ -14,25 +14,25 @@ header("location: ../../sites/adminsite/admin.php");
 </head>
 <body>
 <div class="container">
-	<h1 class="text-center">Termék katalógus</h1>
-	<hr align="center">
-<div id="login">
-<form action="" method="post">
-<table align="center">
-	<tr>
-<td><label>Felhasználónév: </label></td>
-<td><input id="name" name="username" placeholder="username" type="text"></td>
-</tr>
-<tr>
-<td><label>Jelszó: </label></td>
-<td><input id="password" name="password" placeholder="**********" type="password"></td>
-</tr>
-<tr align="center">
-<td colspan="2"><input name="submit" type="submit" value=" Login "></td>
-</tr>
-</table>
-</form>
-</div>
+		<h1 class="text-center">Saturnus</h1>
+		<hr align="center">
+	<div id="login">
+		<form action="" method="post">
+			<table align="center">
+				<tr>
+					<td><label>Felhasználónév: </label></td>
+					<td><input id="name" name="username" placeholder="username" type="text"></td>
+				</tr>
+				<tr>
+					<td><label>Jelszó: </label></td>
+					<td><input id="password" name="password" placeholder="**********" type="password"></td>
+				</tr>
+				<tr align="center">
+					<td colspan="2"><input name="submit" type="submit" value=" Login "></td>
+				</tr>
+			</table>
+		</form>
+	</div>
 </div>
 </body>
 </html>

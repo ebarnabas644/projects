@@ -1,4 +1,7 @@
 body{
     background-image: url(../pictures/login_bg.jpg);
-	background-size: cover;
+    background-size: cover;
+}
+#login{
+    background-color: rgba(3, 3, 3, 0.205);
 }
