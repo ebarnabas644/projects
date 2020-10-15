@@ -8,3 +8,9 @@ body{
     border-radius: 2vw;
     border: 1px solid #989898;
 }
+#login input{
+    background: rgba(0,0,0,0.2);
+    color: white;
+    border: 0;
+    border-radius: 4px;
+}
