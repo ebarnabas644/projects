@@ -21,7 +21,7 @@ header("location: ../../sites/adminsite/admin.php");
 					<table align="center">
 						<tr>
 							<td><label>Felhasználónév: </label></td>
-							<td><input id="name" name="username" placeholder="username" type="text"></td>
+							<td><input id="name" name="username" placeholder="Username" type="text"></td>
 						</tr>
 						<tr>
 							<td><label>Jelszó: </label></td>
