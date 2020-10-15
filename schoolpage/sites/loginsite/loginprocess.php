@@ -21,7 +21,7 @@
 	}
 	if ($rows["username"] == $username and $rows["password"] == $password) {
 		$_SESSION['login_user']=$username;
-		header("location: sites/adminsite/admin.php");
+		header("location: ../adminsite/admin.php");
 	} else {
 		$error = "Username or Password is invalid";
 		echo $error;
