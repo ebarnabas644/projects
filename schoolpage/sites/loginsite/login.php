@@ -17,7 +17,7 @@ header("location: ../../sites/adminsite/admin.php");
 		<h1 class="text-center">Saturnus</h1>
 		<hr align="center">
 		<div class="row justify-content-center">
-			<div id="login" class="col-sm-8 col-lg-5 col-xl-3">
+			<div id="login" class="col-9 col-sm-9 col-lg-5 col-xl-4">
 				<form action="" method="post">
 					<table align="center">
 						<tr>
