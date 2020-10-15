@@ -12,15 +12,15 @@ body{
 #login input{
     background: rgba(0,0,0,0.2);
     color: white;
-    border: 0;
+    border: 1px solid #989898;
     border-radius: 4px;
 }
 #login input::placeholder{
     color: rgb(201, 201, 201);
 }
 #login input:focus{
-    outline: white;
+    outline: 1px solid white;
 }
 #login input:hover{
-    border: white;
+    border: 1px solid white;
 }
