@@ -28,7 +28,7 @@ header("location: ../../sites/adminsite/admin.php");
 							<td><input id="password" name="password" placeholder="**********" type="password"></td>
 						</tr>
 						<tr align="center">
-							<td colspan="2"><input name="submit" type="submit" value=" Login "></td>
+							<td colspan="2"><input name="submit" type="submit" value="Login"></td>
 						</tr>
 					</table>
 				</form>
