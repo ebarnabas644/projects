@@ -6,6 +6,7 @@ body{
     background-color: rgba(3, 3, 3, 0.205);
     padding: 2%;
     border-radius: 2vw;
+    font-size: 14px;
     border: 1px solid #989898;
     color: white;
 }
@@ -19,6 +20,7 @@ body{
 }
 #login input::placeholder{
     color: rgb(201, 201, 201);
+    font-size: 14px;
 }
 #login input:focus{
     outline: 1px solid white;
