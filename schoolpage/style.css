@@ -1,0 +1,135 @@
+body{
+	color:#434444;
+}
+a{
+	color: white !important;
+	text-decoration: none !important;
+}
+.container{
+	padding-top: 50px;
+}
+.text-center{
+	text-align: center;
+	color: black;
+}
+hr{
+	width: 100%;
+	border: 3px solid #434444;
+}
+.product-grid{
+	padding-bottom: 10px;
+	padding-top: 20px;
+
+}
+.product-grid:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100;
+	opacity: 0;
+	transition: .5% ease;
+	background-color: rgba(67, 68, 68, 0.7);
+}
+.edit{
+	position: absolute;
+	top:0px;
+	right: 10px;
+}
+.delete{
+	position: absolute;
+	top:50px;
+	right: 10px;
+}
+.image{
+	position: relative;
+}
+.image:hover .overlay .detail{
+	opacity: 1 !important;
+
+}
+.detail{
+	font-size: 20px;
+	position: absolute;
+	opacity: 0;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+.buy{
+	background-color: transparent;
+	color: black !important;
+	border: 1px solid #434444;
+	width: 100%;
+	margin-top: 20px;
+}
+.buy:hover{
+	background-color: #434444;
+	color: #fff;
+}
+#sidebar{
+	position: fixed;
+	width: 350px;
+	height: 100%;
+	background: #151719;
+	left:-350px;
+	transition: all 500ms linear;
+	z-index: 1;
+}
+#sidebar.active{
+	left: 0px;
+	z-index: 1;
+}
+#sidebar ul li{
+	color:rgba(230,230,230,0.9);
+	list-style: none;
+
+	font-size: 30px;
+	padding: 19px 10px;
+	border-bottom: 1px solid rgba(100,100,100,0.3);
+}
+#sidebar li:hover{
+	background-color: gray;
+}
+#sidebar .toggle-btn{
+	position: absolute;
+	left: 380px;
+	top: 20px;
+	z-index: 1;
+}
+#sidebar .toggle-btn span{
+	display: block;
+	width: 30px;
+	height: 5px;
+	background: #151719;
+	margin: 5px 0px;
+	z-index: 1;
+}
+.product-grid {
+  float: left;
+  width: 25%;
+}
+@media screen and (max-width: 992px) {
+   .product-grid {
+    width: 50% !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .product-grid {
+    width: 100% !important;
+  }
+}
+#items{
+	margin: 30px;
+}
+#sidesearch{
+	width: 260px;
+}

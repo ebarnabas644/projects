@@ -1,0 +1,5 @@
+id,name,price,image,brand,big_image,stock
+2,Galaxy S9,150000,s9.png,Samsung,big_s9.png,false
+4,Iphone X,300000,iphone x.png,Apple,big_iphone x.png,true
+3,Mate P20 Pro,300000,mate p20 pro.png,Huawei,big_mate p20 pro.png,true
+1,Galaxy S8,120000,s8.png,Samsung,big_s8.png,true
