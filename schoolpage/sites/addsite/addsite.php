@@ -1,7 +1,7 @@
 <?php
-include($_SERVER['DOCUMENT_ROOT'] ."/catalog/sites/loginsite/session.php");
-require($_SERVER['DOCUMENT_ROOT'] ."/catalog/databaseaccess/phones.php");
-require ($_SERVER['DOCUMENT_ROOT'] ."/catalog/databaseaccess/accessdatabase.php");
+include($_SERVER['DOCUMENT_ROOT'] ."/schoolpage/sites/loginsite/session.php");
+require($_SERVER['DOCUMENT_ROOT'] ."/schoolpage/databaseaccess/phones.php");
+require ($_SERVER['DOCUMENT_ROOT'] ."/schoolpage/databaseaccess/accessdatabase.php");
 $phone = new Phones();
 $phonearray=$phone->GetPhones();
 $include[]=array();

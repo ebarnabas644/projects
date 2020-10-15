@@ -1,5 +1,5 @@
 <?php
-	require($_SERVER['DOCUMENT_ROOT'] ."/catalog/databaseaccess/phones.php");
+	require($_SERVER['DOCUMENT_ROOT'] ."/schoolpage/databaseaccess/phones.php");
 
 	class AdminController{
 		function CreateAdminTables(){

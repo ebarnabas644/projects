@@ -1,5 +1,5 @@
 <?php
-include ($_SERVER['DOCUMENT_ROOT'] ."/catalog/sites/loginsite/session.php");
+include ($_SERVER['DOCUMENT_ROOT'] ."/schoolpage/sites/loginsite/session.php");
 ?>
 <!DOCTYPE html>
 <html>
@@ -28,7 +28,7 @@ include ($_SERVER['DOCUMENT_ROOT'] ."/catalog/sites/loginsite/session.php");
 	</div>	</div>
 	<div class="row" align="center">
 	<?php
-	require($_SERVER['DOCUMENT_ROOT'] ."/catalog/sites/deletesite/deletesitecontroller.php");
+	require($_SERVER['DOCUMENT_ROOT'] ."/schoolpage/sites/deletesite/deletesitecontroller.php");
 	$product = new DeleteProductController();
 	echo $product->ConfirmProduct();
 	?>

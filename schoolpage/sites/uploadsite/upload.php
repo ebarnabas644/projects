@@ -1,5 +1,5 @@
 <?php
-include ($_SERVER['DOCUMENT_ROOT'] ."/catalog/sites/loginsite/session.php");
+include ($_SERVER['DOCUMENT_ROOT'] ."/schoolpage/sites/loginsite/session.php");
 ?>
 <html>
 <head>

@@ -1,9 +1,9 @@
 <?php
 
-	require ($_SERVER['DOCUMENT_ROOT'] ."/catalog/items/phones/phonesdatabase.php");
+	require ($_SERVER['DOCUMENT_ROOT'] ."/schoolpage/items/phones/phonesdatabase.php");
 	class Phones{
 		function GetPhones(){
-			require ($_SERVER['DOCUMENT_ROOT'] ."/catalog/databaseaccess/accessdatabase.php");
+			require ($_SERVER['DOCUMENT_ROOT'] ."/schoolpage/databaseaccess/accessdatabase.php");
 			$result = pg_query($db_connectiontocatalog, "SELECT * FROM phones");
 			$phonearray=array();
 			while($row=pg_fetch_array($result)){
