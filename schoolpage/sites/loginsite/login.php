@@ -13,7 +13,7 @@ header("location: ../../sites/adminsite/admin.php");
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 </head>
 <body>
-<div class="container">
+<div class="container justify-content-xl-center">
 		<h1 class="text-center">Saturnus</h1>
 		<hr align="center">
 	<div id="login" class="col-sm-8 col-lg-1 col-xl-3">
