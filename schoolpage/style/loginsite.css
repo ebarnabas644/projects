@@ -16,7 +16,6 @@ body{
     border-radius: 4px;
     margin-left: 2vw;
     padding-left: 4px;
-    transition: padding-left 0.5s;
 }
 #login input::placeholder{
     color: rgb(201, 201, 201);
@@ -24,7 +23,6 @@ body{
 }
 #login input:focus{
     outline: 1px solid white;
-    padding-left: 0;
 }
 #login input:hover{
     border: 1px solid white;
