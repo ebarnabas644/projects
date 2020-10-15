@@ -28,3 +28,11 @@ body{
 #login input:hover{
     border: 1px solid white;
 }
+#cim{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: rotate(-90deg);
+    text-transform: capitalize;
+    font-size: 40px;
+}
