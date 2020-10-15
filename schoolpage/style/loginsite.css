@@ -16,8 +16,11 @@ body{
     border-radius: 4px;
 }
 #login input::placeholder{
-    color: white;
+    color: rgb(201, 201, 201);
 }
 #login input:focus{
     outline: white;
+}
+#login input:hover{
+    border: white;
 }
