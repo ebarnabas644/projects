@@ -18,5 +18,5 @@ body{
     color: white;
 }
 #login input:focus{
-    border: white;
+    outline: white;
 }
