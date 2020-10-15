@@ -7,6 +7,7 @@ body{
     padding: 2%;
     border-radius: 2vw;
     border: 1px solid #989898;
+    color: white;
 }
 #login input{
     background: rgba(0,0,0,0.2);
