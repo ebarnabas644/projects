@@ -31,8 +31,8 @@ body{
 #cim{
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 100px;
     transform: rotate(-90deg);
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-size: 40px;
 }
