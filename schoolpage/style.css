@@ -1,5 +1,6 @@
 body{
 	color:#434444;
+	background-image: url(pictures/login_bg.jpg);
 }
 a{
 	color: white !important;
