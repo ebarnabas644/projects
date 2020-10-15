@@ -14,9 +14,11 @@ body{
     color: white;
     border: 1px solid #989898;
     border-radius: 4px;
+    margin-left: 2vw;
 }
 #login input::placeholder{
     color: rgb(201, 201, 201);
+    margin-left: 1vw;
 }
 #login input:focus{
     outline: 1px solid white;
