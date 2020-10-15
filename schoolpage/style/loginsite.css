@@ -6,4 +6,5 @@ body{
     background-color: rgba(3, 3, 3, 0.205);
     padding: 2%;
     border-radius: 2vw;
+    border: 1px solid #989898;
 }
