@@ -19,7 +19,6 @@ body{
 }
 #login input::placeholder{
     color: rgb(201, 201, 201);
-    padding-left: 4px;
 }
 #login input:focus{
     outline: 1px solid white;
