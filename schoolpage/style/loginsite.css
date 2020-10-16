@@ -6,10 +6,14 @@ body{
     background-color: rgba(3, 3, 3, 0.205);
     padding: 2%;
     border-radius: 2vw;
+    transition: border-radius 0.5s;
     font-size: 20px;
     border: 1px solid #989898;
     color: white;
     margin-top: 30%;
+}
+#login:hover{
+    border-radius: 5vw 0 5vw 0;
 }
 #login input{
     background: rgba(0,0,0,0.2);
@@ -38,4 +42,7 @@ body{
     font-size: 6vw;
     color: black;
     text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.5);
+}
+#button{
+    padding: 0 0 10px 10px;
 }
