@@ -33,8 +33,7 @@ hr{
 	height: 100%;
 	width: 100;
 	opacity: 0;
-	transition: .5% ease;
-	background-color: rgba(67, 68, 68, 0.7);
+	transition: opacity 1s ease;
 }
 .edit{
 	position: absolute;
