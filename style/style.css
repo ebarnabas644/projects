@@ -48,6 +48,10 @@ hr{
 .image{
 	position: relative;
 }
+.image:hover .overlay{
+	opacity: 1 !important;
+
+}
 .image:hover .overlay .detail{
 	opacity: 1 !important;
 
