@@ -1,5 +1,5 @@
 <?php
-	require ($_SERVER['DOCUMENT_ROOT'] ."/schoolpage/databaseaccess/accessdatabase.php");
+	require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/accessdatabase.php");
 	session_start();
 	$user_check=$_SESSION['login_user'];
 	$result=pg_query($db_connectiontoadmins, "select username from users where username='$user_check'");

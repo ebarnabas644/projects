@@ -1,7 +1,7 @@
 <?php
 ini_set('display_errors', 'On');
-include ($_SERVER['DOCUMENT_ROOT'] ."/schoolpage/sites/loginsite/session.php");
-require ($_SERVER['DOCUMENT_ROOT'] ."/schoolpage/databaseaccess/accessdatabase.php");
+include ($_SERVER['DOCUMENT_ROOT'] ."/sites/loginsite/session.php");
+require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/accessdatabase.php");
 	if (!empty($_POST['delete'])) {
 			$id=$_POST['delete'];
 			pg_query($db_connectiontocatalog,"DELETE FROM phones WHERE id='$id'");
@@ -70,7 +70,7 @@ require ($_SERVER['DOCUMENT_ROOT'] ."/schoolpage/databaseaccess/accessdatabase.p
 	<hr align="center">
 	<div class="row" align="center">
 	<?php
-	require($_SERVER['DOCUMENT_ROOT'] ."/schoolpage/sites/adminsite/admincontroller.php");
+	require($_SERVER['DOCUMENT_ROOT'] ."/sites/adminsite/admincontroller.php");
 	$adminaccess = new AdminController();
 	echo $adminaccess->CreateAdminTables();
 	?>

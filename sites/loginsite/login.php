@@ -1,5 +1,5 @@
 <?php
-include($_SERVER['DOCUMENT_ROOT'] .'/schoolpage/sites/loginsite/loginprocess.php');
+include($_SERVER['DOCUMENT_ROOT'] .'/sites/loginsite/loginprocess.php');
 if(isset($_SESSION['login_user'])){
 header("location: ../../sites/adminsite/admin.php");
 }

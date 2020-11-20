@@ -1,7 +1,7 @@
 <?php
 	
 	session_start();
-	require ($_SERVER['DOCUMENT_ROOT'] ."/schoolpage/databaseaccess/accessdatabase.php");
+	require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/accessdatabase.php");
 	$error='';
 	if (isset($_POST['submit']))
 	{
