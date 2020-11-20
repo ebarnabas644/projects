@@ -24,7 +24,7 @@
 	</div>
 	<div class="row" align="center">
 	<?php
-	require $_SERVER['DOCUMENT_ROOT'] ."/schoolpage/sites/productsite/productcontroller.php";
+	require $_SERVER['DOCUMENT_ROOT'] ."/sites/productsite/productcontroller.php";
 	$product = new ProductController();
 	echo $product->PrepareProduct();
 	?>

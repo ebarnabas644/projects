@@ -1,5 +1,5 @@
 <?php
-	require($_SERVER['DOCUMENT_ROOT'] ."/schoolpage/databaseaccess/phones.php");
+	require($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/phones.php");
 	class DeleteProductController{
 		function ConfirmProduct(){
 			$phone = new Phones();
