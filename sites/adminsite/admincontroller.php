@@ -12,7 +12,7 @@
 			<div class='image'>
 				<a href='../../sites/productsite/productsite.php?id=$phone->id'><img src='../../pictures/$phone->image' class='col-12'>
 				<div class='overlay'>
-					<div class='edit'><a href='../../sites/editsite/editsite.php?id=$phone->id'><img src='../pictures/rsz_edit.png'</img></a></div>
+					<div class='edit'><a href='../../sites/editsite/editsite.php?id=$phone->id'><img src='../../pictures/rsz_edit.png'</img></a></div>
 					<div class='delete'><a href='../../sites/deletesite/deletesite.php?id=$phone->id'><img src='../../pictures/rsz_cross.png'</img></a></div>
 										<div class='detail'><a href='../../sites/productsite/productsite.php?id=$phone->id'>Részletek</a></div>
 				</div>
