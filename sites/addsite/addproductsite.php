@@ -68,7 +68,7 @@ foreach ($gradearray as $key => $grade) {
 				<td><input style="display: none" name='studentid' type='number' id='studentid' value='<?php echo($_GET['id']) ?>' style='background-color:lightgrey' readonly/></td>
 				</tr>
 				<tr>
-				<td colspan='2' align='center'><a class='btn btn-secondary' href='../../sites/adminsite/admin.php' role='button'>Mégsem</a>
+				<td colspan='2' align='center'><a class='btn btn-secondary' href='../../sites/adminproductsite/adminproductsite.php?id=<?php echo($_GET['id']) ?>' role='button'>Mégsem</a>
 				<input type='submit' class='btn btn-success' name='add' value='Mentés'/></td>
 			</form>
 				</tr>
