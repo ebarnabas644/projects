@@ -1,8 +1,7 @@
 <?php
-	include ($_SERVER['DOCUMENT_ROOT'] ."/sites/loginsite/session.php");
-	require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/accessdatabase.php");
-	require $_SERVER['DOCUMENT_ROOT'] . "/databaseaccess/phones.php";
-	require $_SERVER['DOCUMENT_ROOT'] . "/databaseaccess/grades.php";
+	require($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/accessdatabase.php");
+	require($_SERVER['DOCUMENT_ROOT'] . "/databaseaccess/phones.php");
+	require($_SERVER['DOCUMENT_ROOT'] . "/databaseaccess/grades.php");
 	class ProductController{
 		function PrepareProduct(){
 			$phone = new Phones();
