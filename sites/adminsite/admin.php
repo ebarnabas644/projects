@@ -78,7 +78,7 @@ require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/accessdatabase.php");
 			<div class='image'>
 				<a href='../../sites/addsite/addsite.php'><img src='../../pictures/rsz_add.png' class='col-12'></a>
 		</div>
-		<a href="../../sites/addsite/addsite.php"><h3><font color="black">Új termék hozzáadása</font></h3></a>
+		<a href="../../sites/addsite/addsite.php"><h3><font color="black">Tanuló hozzáadása</font></h3></a>
 		</div>
 	</div>
 </div>

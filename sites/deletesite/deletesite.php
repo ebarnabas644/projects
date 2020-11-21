@@ -23,7 +23,6 @@ include ($_SERVER['DOCUMENT_ROOT'] ."/sites/loginsite/session.php");
 		</div>
 		<ul>
 			<a href="../../sites/loginsite/login.php"><li>Kijelentkezés</li></a>
-			
 		</ul>
 	</div>	</div>
 	<div class="row" align="center">
