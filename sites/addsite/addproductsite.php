@@ -1,6 +1,6 @@
 <?php
-include($_SERVER['DOCUMENT_ROOT'] ."/sites/loginsite/session.php");
-require($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/grades.php");
+include ($_SERVER['DOCUMENT_ROOT'] ."/sites/loginsite/session.php");
+require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/grades.php");
 require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/accessdatabase.php");
 $grade = new Grades();
 $gradearray=$grade->GetGrades();
@@ -58,7 +58,7 @@ foreach ($gradearray as $key => $grade) {
 				</tr>
 				<tr>
 				<td><label for='studentid'>Tanuló azonosítója: </label></td>
-				<td><input name='studentid' type='number' id='studentid' value='<?php $_GET['id'] ?>' style='background-color:lightgrey' readonly/></td>
+				<td><input name='studentid' type='number' id='studentid' value='<?php echo($_GET['id']) ?>' style='background-color:lightgrey' readonly/></td>
 				</tr>
 				<tr>
 				<td colspan='2' align='center'><a class='btn btn-secondary' href='../../sites/adminsite/admin.php' role='button'>Mégsem</a>
