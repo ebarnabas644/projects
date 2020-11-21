@@ -30,7 +30,7 @@
 				<td>$grade->subject</td>
 				<td>$grade->date</td>
 				<td>$grade->grade</td>
-				</tr>"
+				</tr>";
 			}
 			pg_close();
 			return $result;
