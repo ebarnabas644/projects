@@ -22,7 +22,7 @@ include ($_SERVER['DOCUMENT_ROOT'] ."/sites/loginsite/session.php");
 			<span></span>
 		</div>
 		<ul>
-			<a href="../../sites/loginsite/login.php"><li>Kijelentkezés</li></a>
+			<a href="../../sites/loginsite/logout.php"><li>Kijelentkezés</li></a>
 		</ul>
 	</div>	</div>
 	<div class="row" align="center">
