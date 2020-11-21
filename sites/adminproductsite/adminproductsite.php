@@ -18,7 +18,7 @@ require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/accessdatabase.php");
 		$subject=pg_escape_string($_POST['subject']);
 		$grade=pg_escape_string($_POST['grade']);
 		$studentid=pg_escape_string($_POST['studentid']);
-		pg_query($db_connectiontocatalog, "INSERT INTO grades (id,date,grade,subject,studentid) VALUES ('$id','$date','$subject','$grade','$studentid')");
+		pg_query($db_connectiontocatalog, "INSERT INTO grades (id,date,grade,subject,studentid) VALUES ('$id','$date','$grade','$subject','$studentid')");
 	}
 ?>
 <!DOCTYPE html>
