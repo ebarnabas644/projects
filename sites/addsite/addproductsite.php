@@ -5,7 +5,7 @@ require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/accessdatabase.php");
 $grade = new Grades();
 $gradearray=$grade->GetGrades(pg_query($db_connectiontocatalog, "SELECT * FROM grades"));
 $include[]=array();
-$number=2;
+$number=1;
 foreach ($gradearray as $key => $grade) {
 				$include[]=$grade->id;
 			}
