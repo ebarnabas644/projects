@@ -47,7 +47,7 @@ require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/accessdatabase.php");
 	<div class="row" align="center">
 	<?php
 	ini_set('display_errors', 'On');
-	require $_SERVER['DOCUMENT_ROOT'] ."/sites/productsite/adminproductcontroller.php";
+	require $_SERVER['DOCUMENT_ROOT'] ."/sites/adminproductsite/adminproductcontroller.php";
 	$product = new ProductController();
 	echo $product->PrepareProduct();
 	?>
