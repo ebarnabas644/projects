@@ -18,28 +18,20 @@
 				<td><input name='id' type='text' id='id' value='$productid' style='background-color:lightgrey' readonly/></td>
 				</tr>
 				<tr>
-				<td><label for='name'>Terméknév: </label></td>
+				<td><label for='name'>Név: </label></td>
 				<td><input name='name' type='text' id='name' value='$phone->name' required /></td>
 				</tr>
 				<tr>
-				<td><label for='price'>Termékár: </label></td>
+				<td><label for='price'>Évfolyam: </label></td>
 				<td><input name='price' type='number' id='price' value='$phone->price' required /></td>
 				</tr>
 				<tr>
-				<td><label for='stock'>Van-e raktáron: </label>
-				". ($phone->stock=='true' ? "<td align='center'><input name='stock' type='checkbox' id='stock' checked/></td>" : "<td><input name='stock' type='checkbox' id='stock'/></td>")."
-				</tr>
-				<tr>
-				<td><label for='brand'>Márka: </label></td>
+				<td><label for='brand'>Osztály: </label></td>
 				<td><input name='brand' type='text' id='brand' value='$phone->brand' required /></td>
 				</tr>
 				<tr>
 				<td><label for='image'>1. kép neve: </label></td>
 				<td><input name='image' type='text' id='image' value='$phone->image'/></td>
-				</tr>
-				<tr>
-				<td><label for='big_image'>2. kép neve: </label></td>
-				<td><input name='big_image' type='text' id='big_image' value='$phone->big_image'/></td>
 				</tr>
 				<tr>
 				<td colspan='2' align='center'><a class='btn btn-secondary' href='../../sites/adminsite/admin.php' role='button'>Mégsem</a>

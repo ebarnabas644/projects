@@ -12,10 +12,7 @@
 				$result=$result . "<div class='container'>
 		<h1 class='text-center'>$phone->brand $phone->name</h1>
 	<hr>
-			<div class='image'>
-				<img src='../../pictures/$phone->big_image' class='w-100' id='big_img'>
-		</div>
-		<h5 class='text-center'>Ár: ".number_format($phone->price,0,',',' ')." Ft</h5>";
+		<h5 class='text-center'>Osztály: "$phone->price"."$phone->brand"</h5>";
 			}
 			}
 			return $result;
