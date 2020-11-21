@@ -139,7 +139,7 @@ hr{
 	font-size: 20px;
 }
 #grades tr{
-	border-bottom: grey 1px solid;
+	border-bottom:rgb(165, 165, 165) 1px solid;
 	transition: background 0.4s ease;
 }
 #grades tr:hover{
