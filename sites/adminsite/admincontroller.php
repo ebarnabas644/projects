@@ -20,7 +20,7 @@
 		<div id='items'>
 		<h5 class='text-center'>$phone->brand</h5>
 		<h5 class='text-center'>$phone->name</h5>
-		<h5 class='text-center'>$phone->pricet</h5>
+		<h5 class='text-center'>$phone->price</h5>
 		<a href='../../sites/productsite/productsite.php?id=$phone->id' class='btn buy'>Részletek</a>
 		</div>
 	</div>";
