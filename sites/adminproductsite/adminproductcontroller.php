@@ -1,9 +1,9 @@
 <?php
-	require($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/accessdatabase.php");
-	require($_SERVER['DOCUMENT_ROOT'] . "/databaseaccess/phones.php");
-	require($_SERVER['DOCUMENT_ROOT'] . "/databaseaccess/grades.php");
+	require ($_SERVER['DOCUMENT_ROOT'] . "/databaseaccess/phones.php");
+	require ($_SERVER['DOCUMENT_ROOT'] . "/databaseaccess/grades.php");
 	class ProductController{
 		function PrepareProduct(){
+			require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/accessdatabase.php");
 			$phone = new Phones();
 			$phonearray=$phone->GetPhones();
 			$result ="";
@@ -20,6 +20,7 @@
 			return $result;
 		}
 		function PrepareGrades(){
+			require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/accessdatabase.php");
 			$grade = new Grades();
 			$studentid = $_GET["id"];
 			$gradearray = pg_query($db_connectiontocatalog, "SELECT * FROM grades INNER JOIN phones ON phones.id = grades.studentid ORDER BY date");
