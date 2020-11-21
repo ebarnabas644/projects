@@ -17,7 +17,7 @@ foreach ($phonearray as $key => $phone) {
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Termék katalógus</title>
+	<title>Saturnus napló</title>
 	<link rel="stylesheet" type="text/css" href="../../style.css">
 	<link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -40,7 +40,7 @@ foreach ($phonearray as $key => $phone) {
 	</div>	</div>
 	<div class="row" align="center">
 	<div class='container'>
-				<h1 class='text-center'>Termék hozzáadása</h1>
+				<h1 class='text-center'>Tanuló hozzáadása</h1>
 				<hr align='center'>
 				<form id='testform' name='testform' method='post' action='../../sites/adminsite/admin.php'>
 				<table align='center'>

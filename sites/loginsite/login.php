@@ -7,7 +7,7 @@ header("location: ../../sites/adminsite/admin.php");
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Termék katalógus</title>
+	<title>Saturnus napló</title>
 	<link rel="stylesheet" type="text/css" href="../../style/loginsite.css">
 	<link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 

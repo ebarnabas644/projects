@@ -4,7 +4,7 @@ include($_SERVER['DOCUMENT_ROOT'] ."/sites/loginsite/session.php");
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Termék katalógus</title>
+	<title>Saturnus napló</title>
 	<link rel="stylesheet" type="text/css" href="../../style/style.css">
 	<link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
@@ -26,6 +26,8 @@ include($_SERVER['DOCUMENT_ROOT'] ."/sites/loginsite/session.php");
 			
 		</ul>
 	</div>	</div>
+	<h1 class='text-center'>Tanuló adatainak szerkesztése</h1>
+				<hr align='center'>
 	<div class="row" align="center">
 	<?php
 	require($_SERVER['DOCUMENT_ROOT'] ."/sites/editsite/editsitecontroller.php");

@@ -3,7 +3,7 @@ include ($_SERVER['DOCUMENT_ROOT'] ."/sites/loginsite/session.php");
 ?>
 <html>
 <head>
-	<title>Termék katalógus</title>
+	<title>Saturnus napló</title>
 	<link rel="stylesheet" type="text/css" href="../../style/style.css">
 	<link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
