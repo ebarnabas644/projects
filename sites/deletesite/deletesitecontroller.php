@@ -14,7 +14,7 @@
 			<div class='image'>
 				<img src='../../pictures/$phone->big_image' class='w-50' id='big_img'>
 		</div>
-		<h5 class='text-center'>Biztos törölni szeretné ezt a terméket?</h5>
+		<h5 class='text-center'>Biztos törölni szeretné ezt a tanulót?</h5>
 		<form method='post' action='../../sites/adminsite/admin.php'>
 		<a class='btn btn-secondary' href='../../sites/adminsite/admin.php' role='button'>Mégsem</a>
 		<button class='btn btn-danger' type='submit' value=$phone->id name='delete' href='../../sites/adminsite/admin.php' role='button'>Törlés</button>

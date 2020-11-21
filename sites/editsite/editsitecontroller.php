@@ -9,7 +9,7 @@
 			foreach ($phonearray as $key => $phone) {
 				if ($productid==$phone->id) {
 				$result=$result . "<div class='container'>
-				<h1 class='text-center'>Termék adatok módosítása</h1>
+				<h1 class='text-center'>Tanuló adatainak szerkesztése</h1>
 				<hr align='center'>
 				<form id='testform' name='testform' method='post' action='../../sites/adminsite/admin.php'>
 				<table align='center'>
