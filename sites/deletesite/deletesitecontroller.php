@@ -9,11 +9,9 @@
 			foreach ($phonearray as $key => $phone) {
 				if ($productid==$phone->id) {
 				$result=$result . "<div class='container'>
-		<h1 class='text-center'>$phone->brand $phone->name</h1>
-	<hr>
-			<div class='image'>
-				<img src='../../pictures/$phone->big_image' class='w-50' id='big_img'>
-		</div>
+				<h1 class='text-center'>$phone->name</h1>
+				<hr>
+				<h5 class='text-center'>Osztály: $phone->price.$phone->brand</h5>
 		<h5 class='text-center'>Biztos törölni szeretné ezt a tanulót?</h5>
 		<form method='post' action='../../sites/adminsite/admin.php'>
 		<a class='btn btn-secondary' href='../../sites/adminsite/admin.php' role='button'>Mégsem</a>
