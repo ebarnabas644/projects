@@ -7,7 +7,6 @@
 			$phone = new Phones();
 			$phonearray=$phone->GetPhones();
 			$result ="";
-			$productid=$_GET["id"];
 			foreach ($phonearray as $key => $phone) {
 				if ($productid==$phone->id) {
 				$result=$result . "<div class='container'>
@@ -22,7 +21,6 @@
 		function PrepareGrades(){
 			require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/accessdatabase.php");
 			$grade = new Grades();
-			$studentid = $_GET["id"];
 			$gradearray = $grade->GetGrades(pg_query($db_connectiontocatalog, "SELECT * FROM grades INNER JOIN phones ON phones.id = grades.studentid ORDER BY date"));
 			$result = "";
 			foreach($gradearray as $key => $grade){
