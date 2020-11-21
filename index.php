@@ -27,7 +27,7 @@
 		</ul>
 	</div>
 	<div class="container">
-		<h1 class="text-center">Termék katalógus</h1>
+		<h1 class="text-center">Napló</h1>
 	<hr align="center">
 	<div class="row" align="center">
 	<?php
