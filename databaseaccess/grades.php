@@ -11,7 +11,7 @@
 				$date=$row["date"];
 				$grade=$row["grade"];
 				$subject=$row["subject"];
-				$phone=new phonesdatabase($id,$date,$grade,$subject);
+				$grade=new gradesdatabase($id,$date,$grade,$subject);
 				array_push($gradearray, $grade);
 			}
 			pg_close();

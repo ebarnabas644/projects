@@ -1,6 +1,6 @@
 <?php
 
-class phonesdatabase{
+class gradesdatabase{
 	public $id;
 	public $date;
 	public $grade;
