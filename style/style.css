@@ -142,5 +142,5 @@ hr{
 	transition: background 0.4s ease;
 }
 #grades tr:hover{
-	background-color: gray;
+	background-color: rgb(165, 165, 165);
 }
