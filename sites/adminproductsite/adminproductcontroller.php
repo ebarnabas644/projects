@@ -1,9 +1,9 @@
 <?php
+	include ($_SERVER['DOCUMENT_ROOT'] ."/sites/loginsite/session.php");
+	require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/accessdatabase.php");
+	require $_SERVER['DOCUMENT_ROOT'] . "/databaseaccess/phones.php";
+	require $_SERVER['DOCUMENT_ROOT'] . "/databaseaccess/grades.php";
 	class ProductController{
-		include ($_SERVER['DOCUMENT_ROOT'] ."/sites/loginsite/session.php");
-		require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/accessdatabase.php");
-		require $_SERVER['DOCUMENT_ROOT'] . "/databaseaccess/phones.php";
-		require $_SERVER['DOCUMENT_ROOT'] . "/databaseaccess/grades.php";
 		function PrepareProduct(){
 			$phone = new Phones();
 			$phonearray=$phone->GetPhones();
