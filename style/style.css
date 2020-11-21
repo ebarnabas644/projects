@@ -136,6 +136,8 @@ hr{
 }
 #grades{
 	width: 35%;
+}
+#grades tr{
 	border-bottom: grey 1px solid;
 }
 #grades tr:hover{
