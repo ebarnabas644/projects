@@ -19,9 +19,7 @@
 		<div id='items'>
 		<h5 class='text-center'>$phone->brand</h5>
 		<h5 class='text-center'>$phone->name</h5>
-		<h5 class='text-center'>Ár: ".number_format($phone->price,0,',',' ')." Ft</h5>
-		".($phone->stock=='true' ? "<div><a href='sites/productsite/productsite.php?id=$phone->id'><img src='pictures/rsz_green_pipe.png'</img></a></div>" : "<div><a href='sites/productsite/productsite.php?id=$phone->id'><img src='pictures/rsz_red_cross.png'</img></a></div>")."
-
+		<h5 class='text-center'>$phone->price</h5>
 		<a href='sites/productsite/productsite.php?id=$phone->id' class='btn buy'>Részletek</a>
 		</div>
 	</div>";
