@@ -2,9 +2,8 @@
 
 	require ($_SERVER['DOCUMENT_ROOT'] ."/items/phones/gradesdatabase.php");
 	class Grades{
-		function GetGrades(){
+		function GetGrades($result){
 			require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/accessdatabase.php");
-			$result = pg_query($db_connectiontocatalog, "SELECT * FROM grades");
 			$gradearray=array();
 			while($row=pg_fetch_array($result)){
 				$id=$row["id"];
