@@ -23,7 +23,7 @@
 			require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/accessdatabase.php");
 			$grade = new Grades();
 			$id=$_GET["id"];
-			$gradearray = $grade->GetGrades(pg_query($db_connectiontocatalog, "SELECT * FROM grades INNER JOIN phones ON phones.id = grades.studentid WHERE $id = id ORDER BY date desc"));
+			$gradearray = $grade->GetGrades(pg_query($db_connectiontocatalog, "SELECT * FROM grades INNER JOIN phones ON phones.id = grades.studentid WHERE $id = grades.studentid ORDER BY date desc"));
 			$result = "";
 			foreach($gradearray as $key => $grade){
 				$result = $result . "<tr>
