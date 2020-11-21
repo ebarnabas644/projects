@@ -134,3 +134,10 @@ hr{
 #sidesearch{
 	width: 260px;
 }
+#grades{
+	width: 35%;
+	border-bottom: grey;
+}
+#grades:hover{
+	background-color: gray;
+}
