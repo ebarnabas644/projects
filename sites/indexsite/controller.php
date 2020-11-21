@@ -12,7 +12,7 @@
 			<div class='image'>
 				<a href='sites/productsite/productsite.php?id=$phone->id'><img src='pictures/$phone->image' class='col-12'>
 				<div class='overlay'>
-					<div class='detail'><a href='sites/productsite/productsite.php?id=$phone->id'>Értékelések</a></div>
+					<div class='detail'><a href='sites/productsite/productsite.php?id=$phone->id'></a></div>
 				</div>
 			</a>
 		</div>
