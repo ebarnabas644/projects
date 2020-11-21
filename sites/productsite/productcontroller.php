@@ -12,7 +12,7 @@
 				$result=$result . "<div class='container'>
 		<h1 class='text-center'>$phone->name</h1>
 	<hr>
-		<h5 class='text-center'>Osztály: "$phone->price"."$phone->brand"</h5>";
+		<h5 class='text-center'>Osztály: $phone->price.$phone->brand</h5>";
 			}
 			}
 			return $result;
