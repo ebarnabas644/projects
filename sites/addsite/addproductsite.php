@@ -50,7 +50,15 @@ foreach ($gradearray as $key => $grade) {
 				</tr>
 				<tr>
 				<td><label for='subject'>Tantárgy: </label></td>
-				<td><input name='subject' type='text' id='subject' value='' required /></td>
+				<td><select name="subject" id="subject">
+					<option value="Irodalom">Irodalom</option>
+					<option value="Matematika">Matematika</option>
+					<option value="Testnevelés">Testnevelés</option>
+					<option value="Biológia">Biológia</option>
+					<option value="Fizika">Fizika</option>
+					<option value="Informatika">Informatika</option>
+				</select>
+				</td>
 				</tr>
 				<tr>
 				<td><label for='grade'>Érdemjegy: </label></td>
