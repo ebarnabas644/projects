@@ -25,10 +25,15 @@
 	<div class="row" align="center">
 	<?php
 	ini_set('display_errors', 'On');
-	require $_SERVER['DOCUMENT_ROOT'] ."/sites/productsite/productcontroller.php";
+	require $_SERVER['DOCUMENT_ROOT'] ."/sites/adminproductsite/productcontroller.php";
 	$product = new ProductController();
 	echo $product->PrepareProduct();
 	?>
+	<table id="grades">
+	<?php
+	echo $product->PrepareGrades();
+	?>
+	</table>
 </div>
 </body>
 </html>
