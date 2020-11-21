@@ -42,7 +42,7 @@ foreach ($gradearray as $key => $grade) {
 	<div class='container'>
 				<h1 class='text-center'>Jegy hozzáadása</h1>
 				<hr align='center'>
-				<form id='testform' name='testform' method='post' action='../../sites/adminproductsite/adminproductsite.php?=<?php echo($_GET['id'])'>
+				<form id='testform' name='testform' method='post' action='../../sites/adminproductsite/adminproductsite.php?id=<?php echo($_GET['id']) ?>'>
 				<table align='center'>
 				<tr>
 				<td><label for='id'>Azonosító: </label></td>
