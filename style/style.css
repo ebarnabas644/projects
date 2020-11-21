@@ -136,6 +136,7 @@ hr{
 }
 #grades{
 	width: 35%;
+	size: 20px;
 }
 #grades tr{
 	border-bottom: grey 1px solid;
