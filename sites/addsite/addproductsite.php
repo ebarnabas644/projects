@@ -3,7 +3,7 @@ include ($_SERVER['DOCUMENT_ROOT'] ."/sites/loginsite/session.php");
 require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/grades.php");
 require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/accessdatabase.php");
 $grade = new Grades();
-$gradearray=$grade->GetGrades($db_connectiontocatalog, "SELECT * FROM grades");
+$gradearray=$grade->GetGrades(pg_query($db_connectiontocatalog, "SELECT * FROM grades"));
 $include[]=array();
 $number=2;
 foreach ($gradearray as $key => $grade) {
