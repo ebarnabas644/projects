@@ -17,9 +17,8 @@ require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/accessdatabase.php");
 		$stock='false';
 	}
 	$image=pg_escape_string($_POST['image']);
-		$big_image=pg_escape_string($_POST['big_image']);
 		$brand=pg_escape_string($_POST['brand']);
-		pg_query($db_connectiontocatalog, "UPDATE phones SET (name,price,stock,brand,image,big_image) = ('$name','$price','$stock','$brand','$image','$big_image') WHERE id=$id");
+		pg_query($db_connectiontocatalog, "UPDATE phones SET (name,price,stock,brand,image,big_image) = ('$name','$price','$stock','$brand','$image') WHERE id=$id");
 	}
 	if(array_key_exists('add', $_POST)){
 		$id=pg_escape_string($_POST['id']);
@@ -33,8 +32,7 @@ require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/accessdatabase.php");
 	}
 		$brand=pg_escape_string($_POST['brand']);
 		$image=pg_escape_string($_POST['image']);
-		$big_image=pg_escape_string($_POST['big_image']);
-		pg_query($db_connectiontocatalog, "INSERT INTO phones (id,name,price,stock,brand,image,big_image) VALUES ('$id','$name','$price','$stock','$brand','$image','$big_image')");
+		pg_query($db_connectiontocatalog, "INSERT INTO phones (id,name,price,stock,brand,image,big_image) VALUES ('$id','$name','$price','$stock','$brand','$image')");
 	}
 ?>
 <!DOCTYPE html>
