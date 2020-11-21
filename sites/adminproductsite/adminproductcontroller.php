@@ -32,7 +32,6 @@
 				<td>$grade->grade</td>
 				</tr>";
 			}
-			pg_close();
 			return $result;
 			}
 	}
