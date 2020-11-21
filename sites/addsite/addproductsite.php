@@ -1,17 +1,17 @@
-<!-- <?php
-// include ($_SERVER['DOCUMENT_ROOT'] ."/sites/loginsite/session.php");
-// require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/grades.php");
-// require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/accessdatabase.php");
-// $grade = new Grades();
-// $gradearray=$grade->GetGrades();
-// $include[]=array();
-// $number=1;
-// foreach ($gradearray as $key => $grade) {
-// 				$include[]=$grade->id;
-// 			}
-// 			while(in_array($number,$include)){
-// 				$number=$number+1;
-// 			}
+<?php
+include ($_SERVER['DOCUMENT_ROOT'] ."/sites/loginsite/session.php");
+require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/grades.php");
+require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/accessdatabase.php");
+$grade = new Grades();
+$gradearray=$grade->GetGrades($db_connectiontocatalog, "SELECT * FROM grades");
+$include[]=array();
+$number=1;
+foreach ($gradearray as $key => $grade) {
+				$include[]=$grade->id;
+			}
+			while(in_array($number,$include)){
+				$number=$number+1;
+			}
 ?>
 
 <!DOCTYPE html>
@@ -46,7 +46,7 @@
 				<table align='center'>
 				<tr>
 				<td><label for='id'>Azonosító: </label></td>
-				<td><input name='id' type='number' id='id' value='<?php //echo($number) ?>' style='background-color:lightgrey' readonly/></td>
+				<td><input name='id' type='number' id='id' value='<?php echo($number) ?>' style='background-color:lightgrey' readonly/></td>
 				</tr>
 				<tr>
 				<td><label for='subject'>Tantárgy: </label></td>
@@ -58,7 +58,7 @@
 				</tr>
 				<tr>
 				<td><label for='studentid'>Tanuló azonosítója: </label></td>
-				<td><input name='studentid' type='number' id='studentid' value='<?php //echo($_GET['id']) ?>' style='background-color:lightgrey' readonly/></td>
+				<td><input name='studentid' type='number' id='studentid' value='<?php echo($_GET['id']) ?>' style='background-color:lightgrey' readonly/></td>
 				</tr>
 				<tr>
 				<td colspan='2' align='center'><a class='btn btn-secondary' href='../../sites/adminsite/admin.php' role='button'>Mégsem</a>
@@ -68,4 +68,4 @@
 				</table>
 				</div>
 </body>
-</html> -->
+</html>
