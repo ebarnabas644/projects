@@ -42,7 +42,7 @@ foreach ($gradearray as $key => $grade) {
 	<div class='container'>
 				<h1 class='text-center'>Jegy hozzáadása</h1>
 				<hr align='center'>
-				<form id='testform' name='testform' method='post' action='../../sites/adminsite/admin.php'>
+				<form id='testform' name='testform' method='post' action='../../sites/adminproductsite/adminproductsite.php'>
 				<table align='center'>
 				<tr>
 				<td><label for='id'>Azonosító: </label></td>
@@ -61,7 +61,7 @@ foreach ($gradearray as $key => $grade) {
 				</tr>
 				<tr>
 				<td colspan='2' align='center'><a class='btn btn-secondary' href='../../sites/adminsite/admin.php' role='button'>Mégsem</a>
-				<input type='submit' class='btn btn-success' name='add' value='Mentés' href='../../sites/adminsite/admin.php'/></td>
+				<input type='submit' class='btn btn-success' name='add' value='Mentés'/></td>
 			</form>
 				</tr>
 				</table>
