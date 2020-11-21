@@ -52,7 +52,7 @@ require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/accessdatabase.php");
 	$product = new ProductController();
 	echo $product->PrepareProduct();
 	?>
-	<a href='../../sites/editsite/addproductsite.php?id=<?php $_GET['id'] ?>'>Hozzáadás</ad>
+	<a href='../../sites/editsite/addproductsite.php?id=<?php echo $_GET['id']; ?>'>Hozzáadás</ad>
 	<table>
 	<?php
 	echo $product->PrepareGrades();
