@@ -18,7 +18,7 @@ foreach ($gradearray as $key => $grade) {
 <html>
 <head>
 	<title>Saturnus napló</title>
-	<link rel="stylesheet" type="text/css" href="../../style.css">
+	<link rel="stylesheet" type="text/css" href="../../style/style.css">
 	<link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
