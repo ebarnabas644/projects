@@ -7,6 +7,7 @@
 			$phone = new Phones();
 			$phonearray=$phone->GetPhones();
 			$result ="";
+			$productid=$_GET["id"];
 			foreach ($phonearray as $key => $phone) {
 				if ($productid==$phone->id) {
 				$result=$result . "<div class='container'>
