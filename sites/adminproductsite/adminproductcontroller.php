@@ -20,21 +20,20 @@
 			}
 			return $result;
 		}
-	}
-	function PrepareGrades(){
-		$grade = new Grades();
-		$studentid = $_GET["id"];
-		$gradearray = pg_query($db_connectiontocatalog, "SELECT * FROM grades INNER JOIN phones ON phones.id = grades.studentid ORDER BY date");
-		$result = "";
-		foreach($gradearray as $key => $grade){
-			$result = $result . "<tr>
-			<td>$grade->subject</td>
-			<td>$grade->date</td>
-			<td>$grade->grade</td>
-			</tr>"
-		}
-		pg_close();
-		return $result;
-		}
+		function PrepareGrades(){
+			$grade = new Grades();
+			$studentid = $_GET["id"];
+			$gradearray = pg_query($db_connectiontocatalog, "SELECT * FROM grades INNER JOIN phones ON phones.id = grades.studentid ORDER BY date");
+			$result = "";
+			foreach($gradearray as $key => $grade){
+				$result = $result . "<tr>
+				<td>$grade->subject</td>
+				<td>$grade->date</td>
+				<td>$grade->grade</td>
+				</tr>"
+			}
+			pg_close();
+			return $result;
+			}
 	}
 ?>
