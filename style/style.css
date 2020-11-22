@@ -78,7 +78,7 @@ hr{
 }
 #sidebar{
 	position: fixed;
-	width: 350px;
+	width: 30%;
 	height: 100%;
 	background: #151719;
 	left:-350px;
