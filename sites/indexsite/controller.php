@@ -9,7 +9,7 @@
 			$userid = $_POST['id'];
 			if($userid == null){
 				$result=$result . "	<div class='container'>
-				<h1 class='text-center'>Napló</h1>
+				<h1 class='text-center'>Beer Forest Gimnázium</h1>
 			<hr align='center'>
 			<div class='row' align='center'>
 				<div align='center'>
