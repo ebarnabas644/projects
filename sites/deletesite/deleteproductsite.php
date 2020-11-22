@@ -30,7 +30,7 @@ include ($_SERVER['DOCUMENT_ROOT'] ."/sites/loginsite/session.php");
 	ini_set('display_errors', 'On');
 	require($_SERVER['DOCUMENT_ROOT'] ."/sites/deletesite/deletesitecontroller.php");
 	$product = new DeleteProductController();
-	echo $product->ConfirmProduct();
+	echo $product->ConfirmGrade();
 	?>
 </div>
 </body>

@@ -13,7 +13,7 @@
 				<hr>
 				<h5 class='text-center'>Osztály: $phone->price.$phone->brand</h5>
 		<h5 class='text-center'>Biztos törölni szeretné ezt a tanulót?</h5>
-		<form method='post' action='../../sites/adminproductsite/adminproductsite.php?id=$grade->studentid'>
+		<form method='post' action='../../sites/adminproductsite/adminproductsite.php?id=$phone->productid'>
 		<a class='btn btn-secondary' href='../../sites/adminsite/admin.php' role='button'>Mégsem</a>
 		<button class='btn btn-danger' type='submit' value=$phone->id name='delete' href='../../sites/adminsite/admin.php' role='button'>Törlés</button>
 		</form>
