@@ -78,10 +78,10 @@ hr{
 }
 #sidebar{
 	position: fixed;
-	width: 30%;
+	width: 30vw;
 	height: 100%;
 	background: #151719;
-	left:-350px;
+	left:-30vw;
 	transition: all 500ms linear;
 	z-index: 1;
 }
