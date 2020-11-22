@@ -8,9 +8,6 @@ a{
 .container{
 	padding-top: 50px;
 }
-#title{
-	position: fixed;
-}
 .text-center{
 	text-align: center;
 	color: black;
