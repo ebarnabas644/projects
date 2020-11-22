@@ -26,6 +26,7 @@
 			$gradearray = $grade->GetGrades(pg_query($db_connectiontocatalog, "SELECT * FROM grades"));
 			$result = "";
 			foreach($gradearray as $key => $grade){
+				if($id == $grade->studentid){
 				$result = $result . "<tr>
 				<td>$grade->subject</td>
 				<td>$grade->date</td>
@@ -33,6 +34,7 @@
 				<td><a href='../../sites/editsite/editproductsite.php?id=$grade->id'><img src='../../pictures/rsz_edit.png'/></a></td>
 				<td><a href='../../sites/editsite/editproductsite.php?id=$grade->id'><img src='../../pictures/rsz_cross.png'/></a></td>
 				</tr>";
+				}
 				print_r($grade);
 			}
 			return $result;
