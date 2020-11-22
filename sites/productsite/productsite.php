@@ -23,6 +23,7 @@
 		</ul>
 	</div>
 	<div class="row" align="center">
+	<a class='btn btn-secondary' href='../../sites/adminsite/admin.php' role='button'>Vissza</a>
 	<?php
 	ini_set('display_errors', 'On');
 	require $_SERVER['DOCUMENT_ROOT'] ."/sites/productsite/productcontroller.php";
