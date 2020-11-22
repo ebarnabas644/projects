@@ -10,10 +10,12 @@
 			$productid=$_GET["id"];
 			foreach ($phonearray as $key => $phone) {
 				if ($productid==$phone->id) {
-				$result=$result . "<div class='container'>
+				$result=$result . "<div class='container' id='title'>
 		<h1 class='text-center'>$phone->name</h1>
 	<hr>
 		<h5 class='text-center'>Osztály: $phone->price.$phone->brand</h5>
+		<td colspan='2' align='center'><a class='btn btn-secondary' href='../../sites/adminsite/admin.php' role='button'>Vissza</a><a class='btn btn-success' role="button" href='../../sites/addsite/addproductsite.php?id=<?php echo $_GET['id']; ?>'>Új érdemjegy hozzáadása</a>
+		</div>
 		";
 			}
 			}

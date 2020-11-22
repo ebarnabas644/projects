@@ -52,7 +52,6 @@ require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/accessdatabase.php");
 	$product = new ProductController();
 	echo $product->PrepareProduct();
 	?>
-	<td colspan='2' align='center'><a class='btn btn-secondary' href='../../sites/adminsite/admin.php' role='button'>Mégsem</a><a class='btn btn-success' role="button" href='../../sites/addsite/addproductsite.php?id=<?php echo $_GET['id']; ?>'>Új érdemjegy hozzáadása</a>
 	<table id="grades">
 	<?php
 	echo $product->PrepareGrades();
