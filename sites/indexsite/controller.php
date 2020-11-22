@@ -8,18 +8,8 @@
 			$result ="";
 			$userid = $_POST['id'];
 			if($userid == null){
-				$result=$result . "	<div class='container'>
-				<h1 class='text-center'>Beer Forest Gimnázium</h1>
-			<hr align='center'>
-			<div class='row' align='center'>
-				<div align='center'>Elérhetőségek: ";
+				$result=$result . "<div align='center'>Elérhetőségek: ";
 			}
-			else{
-				$result=$result . "	<div class='container'>
-				<h1 class='text-center'>Napló</h1>
-			<hr align='center'>
-			<div class='row' align='center'>
-				<div align='center'>";
 			foreach ($phonearray as $key => $phone) {
 				if($userid == $phone->id){
 				$result=$result . "<div class='col-md-4 product-grid'>

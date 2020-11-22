@@ -28,6 +28,11 @@
 		</ul>
 		
 	</div>
+	<div class="container">
+		<h1 class="text-center">Napló</h1>
+	<hr align="center">
+	<div class="row" align="center">
+		<div align="center">
 </div>
 	<?php
 	require("sites/indexsite/controller.php");
