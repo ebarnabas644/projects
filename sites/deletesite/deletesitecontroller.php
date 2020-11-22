@@ -37,7 +37,7 @@
 				<h5 class='text-center'>Érdemjegy: $grade->grade</h5>
 				<h5 class='text-center'>Beírás dátuma: $grade->date</h5>
 		<h5 class='text-center'>Biztos törölni szeretné ezt az érdemjegyet?</h5>
-		<form method='post' action='../../sites/adminproductsite/adminproductsite.php?id=$grade->studentid>
+		<form method='post' action='../../sites/adminproductsite/adminproductsite.php?id=$grade->studentid'>
 		<a class='btn btn-secondary' href='../../sites/adminproductsite/adminproductsite.php?id=$grade->studentid' role='button'>Mégsem</a>
 		<button class='btn btn-danger' type='submit' value=$grade->id name='delete' role='button'>Törlés</button>
 		</form>
