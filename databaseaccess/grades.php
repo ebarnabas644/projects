@@ -10,7 +10,7 @@
 				$date=$row["date"];
 				$grade=$row["grade"];
 				$subject=$row["subject"];
-				$studentid=$row["studentid"]
+				$studentid=$row["studentid"];
 				$grade=new gradesdatabase($id,$date,$grade,$subject,$studentid);
 				array_push($gradearray, $grade);
 			}
