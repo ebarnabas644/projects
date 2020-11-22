@@ -33,7 +33,7 @@
 		Írja be a kódját: <form id='testform' name='testform' method='post' action='sites/contoller.php'><input name='id' id='id'/><input type='submit' class='btn btn-success' name='search' value='Keresés'/></form>
 	<?php
 	ini_set('display_errors', 'on');
-	require("sites/indexsite/controller.php");
+	require("sites/indexsite/index.php");
 	$table = new Controller();
 	echo $table->CreateTables();
 	?>
