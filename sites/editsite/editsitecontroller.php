@@ -83,7 +83,7 @@
 				</tr>
 				<tr>
 				<td colspan='2' align='center'><a class='btn btn-secondary' href='../../sites/adminproductsite/adminproductsite.php?id=$grade->studentid' role='button'>Mégsem</a>
-				<input type='submit' class='btn btn-success' name='add' value='Mentés'/></td>
+				<input type='submit' class='btn btn-success' name='save' value='Mentés'/></td>
 				</table>
 			</form>
 				</div>";
