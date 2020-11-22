@@ -47,7 +47,7 @@
 		}
 		function PreviewGrade(){
 			$grade = new Grades();
-			$gradearray=$grade->GetGrades(pg_query($db_connectiontocatalog, "SELECT * FROM grades INNER JOIN phones ON phones.id = grades.studentid WHERE $id = grades.studentid"));
+			$gradearray=$grade->GetGrades(pg_query($db_connectiontocatalog, "SELECT * FROM grades INNER JOIN phones ON phones.id = grades.studentid"));
 			$result ="";
 			$productid=$_GET['id'];
 			foreach ($gradearray as $key => $grade) {
