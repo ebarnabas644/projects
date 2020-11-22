@@ -60,6 +60,8 @@ require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/accessdatabase.php");
 		</div>
 		<ul>
 			<a href="../../sites/uploadsite/uploadsite.php"><li>Kép feltöltése</li></a>
+			<form id='testform' name='testform' method='post' action='../../sites/adminsite/admin.php'>
+			<li><input id="id" type="text" placeholder="Tanuló kódja..." name="id" style='width:16vw'></li></form>
 			<a href="../../sites/logoutsite/logout.php"><li>Kijelentkezés</li></a>
 		</ul>
 	</div>
