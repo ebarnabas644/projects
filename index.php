@@ -24,7 +24,7 @@
 		<ul>
 			<a href="sites/loginsite/login.php"><li>Bejelentkezés</li></a>
 			<form id='testform' name='testform' method='post' action='index.php'>
-			<li><input id="id" type="text" placeholder="Írja be a kódját..." name="id" style='width:25vw'></li></form>
+			<li><input id="id" type="text" placeholder="Írja be a kódját..." name="id" style='width:18vw'></li></form>
 		</ul>
 		
 	</div>
