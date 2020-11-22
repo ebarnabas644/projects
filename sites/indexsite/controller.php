@@ -6,8 +6,8 @@
 			$phone = new Phones();
 			$phonearray=$phone->GetPhones();
 			$result ="";
-
 			foreach ($phonearray as $key => $phone) {
+				if($_GET['id'] == $phone->id){
 				$result=$result . "<div class='col-md-4 product-grid'>
 			<div class='image'>
 				<a href='sites/productsite/productsite.php?id=$phone->id'><img src='pictures/$phone->image' class='col-12'>
@@ -22,6 +22,8 @@
 		<a href='sites/productsite/productsite.php?id=$phone->id' class='btn buy'>Értékelések</a>
 		</div>
 	</div>";
+				break;
+				}
 			}
 			return $result;
 		}
