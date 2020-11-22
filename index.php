@@ -23,14 +23,16 @@
 		</div>
 		<ul>
 			<a href="sites/loginsite/login.php"><li>Bejelentkezés</li></a>
-			
+			Írja be a kódját: <form id='testform' name='testform' method='post' action='index.php'><input name='id' id='id'/>
+			<input type='submit' class='btn btn-success' name='search' value='Keresés'/></form>
 		</ul>
+		
 	</div>
 	<div class="container">
 		<h1 class="text-center">Napló</h1>
 	<hr align="center">
 	<div class="row" align="center">
-		<div align="center">Írja be a kódját: <form id='testform' name='testform' method='post' action='index.php'><input name='id' id='id'/><input type='submit' class='btn btn-success' name='search' value='Keresés'/></form>
+		<div align="center">
 </div>
 	<?php
 	ini_set('display_errors', 'on');
