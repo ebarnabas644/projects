@@ -46,6 +46,7 @@
 			return $result;
 		}
 		function PreviewGrade(){
+			require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/accessdatabase.php");
 			$grade = new Grades();
 			$gradearray=$grade->GetGrades(pg_query($db_connectiontocatalog, "SELECT * FROM grades INNER JOIN phones ON phones.id = grades.studentid"));
 			$result ="";
