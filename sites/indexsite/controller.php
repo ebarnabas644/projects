@@ -29,7 +29,6 @@
 				break;
 				}
 			}
-		}
 			return $result;
 		}
 	}
