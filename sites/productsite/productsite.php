@@ -23,7 +23,6 @@
 		</ul>
 	</div>
 	<div class="row" align="center">
-	<a class='btn btn-secondary' href='../../sites/adminsite/admin.php' role='button'>Vissza</a>
 	<?php
 	ini_set('display_errors', 'On');
 	require $_SERVER['DOCUMENT_ROOT'] ."/sites/productsite/productcontroller.php";
@@ -31,6 +30,7 @@
 	echo $product->PrepareProduct();
 	?>
 	<table id="grades">
+	<td><a class='btn btn-secondary' href='../../sites/adminsite/admin.php' role='button'>Vissza</a></td>
 	<?php
 	echo $product->PrepareGrades();
 	?>
