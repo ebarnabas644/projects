@@ -30,7 +30,7 @@
 	echo $product->PrepareProduct();
 	?>
 	<table id="grades">
-	<td><a class='btn btn-secondary' href='../../sites/adminsite/admin.php' role='button'>Vissza</a></td>
+	<a class='btn btn-secondary' href='../../sites/adminsite/admin.php' role='button'>Vissza</a>
 	<?php
 	echo $product->PrepareGrades();
 	?>
