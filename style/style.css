@@ -102,7 +102,7 @@ hr{
 }
 #sidebar .toggle-btn{
 	position: absolute;
-	left: 380px;
+	left: 35vw;
 	top: 20px;
 	z-index: 1;
 }
