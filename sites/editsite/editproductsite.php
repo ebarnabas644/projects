@@ -28,6 +28,7 @@ include($_SERVER['DOCUMENT_ROOT'] ."/sites/loginsite/session.php");
 	</div>	</div>
 	<div class="row" align="center">
 	<?php
+	ini_set('display_errors', 'On');
 	require($_SERVER['DOCUMENT_ROOT'] ."/sites/editsite/editsitecontroller.php");
 	$product = new EditProductController();
 	echo $product->PreviewGrade();
