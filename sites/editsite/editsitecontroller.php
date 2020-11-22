@@ -56,7 +56,7 @@
 				$result=$result . "<div class='container'>
 				<h1 class='text-center'>Jegy hozzáadása</h1>
 				<hr align='center'>
-				<form id='testform' name='testform' method='post' action='../../sites/adminproductsite/adminproductsite.php?id=$studentid'>
+				<form id='testform' name='testform' method='post' action='../../sites/adminproductsite/adminproductsite.php?id=$grade->studentid'>
 				<table align='center'>
 				<tr>
 				<td><label for='id'>Azonosító: </label></td>
