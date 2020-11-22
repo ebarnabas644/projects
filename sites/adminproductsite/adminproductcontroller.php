@@ -31,7 +31,7 @@
 				<td>$grade->date</td>
 				<td>$grade->grade</td>
 				<td><a href='../../sites/editsite/editproductsite.php?id=$grade->id'><img src='../../pictures/rsz_edit.png'/></a></td>
-				<td><a href='../../sites/editsite/deleteproductsite.php?id=$grade->id'><img src='../../pictures/rsz_cross.png'/></a></td>
+				<td><a href='../../sites/deletesite/deleteproductsite.php?id=$grade->id'><img src='../../pictures/rsz_cross.png'/></a></td>
 				</tr>";
 			}
 			return $result;
