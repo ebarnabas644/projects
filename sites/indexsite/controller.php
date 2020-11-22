@@ -7,6 +7,9 @@
 			$phonearray=$phone->GetPhones();
 			$result ="";
 			$userid = $_POST['id'];
+			if($userid == null){
+				$result=$result . "Hello there";
+			}
 			foreach ($phonearray as $key => $phone) {
 				if($userid == $phone->id){
 				$result=$result . "<div class='col-md-4 product-grid'>
