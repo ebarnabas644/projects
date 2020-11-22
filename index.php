@@ -35,7 +35,6 @@
 		<div align="center">
 </div>
 	<?php
-	ini_set('display_errors', 'on');
 	require("sites/indexsite/controller.php");
 	$table = new Controller();
 	echo $table->CreateTables();

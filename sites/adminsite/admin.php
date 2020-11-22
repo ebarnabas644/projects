@@ -1,5 +1,4 @@
 <?php
-ini_set('display_errors', 'On');
 include ($_SERVER['DOCUMENT_ROOT'] ."/sites/loginsite/session.php");
 require ($_SERVER['DOCUMENT_ROOT'] ."/databaseaccess/accessdatabase.php");
 	if (!empty($_POST['delete'])) {
