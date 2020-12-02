@@ -14,7 +14,7 @@
 			<div class='row' align='center'>
 				<div align='center'>
 		</div>
-				<div align='center'>Elérhetőségek: ";
+				<div align='center'>Elérhetőségek: <br> Cím: Kerekerdő közepe <br> Telefonszám: 123456789 <br> Email cím: principal01@erdei.com";
 			}
 			else{
 				$result = $result . "<div class='container'>
