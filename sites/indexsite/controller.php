@@ -13,7 +13,7 @@
 			<hr align='center'>
 			<div class='row' align='center'>
 		</div>
-		<div>Elérhetőségek: <br> Cím: Kerekerdő közepe <br> Telefonszám: 123456789 <br> Email cím: principal01@erdei.com</div>
+		<div><h2>Elérhetőségek:</h2> <br> Cím: Kerekerdő közepe <br> Telefonszám: 123456789 <br> Email cím: principal01@erdei.com</div>
 				<div align='center'>";
 			}
 			else{
