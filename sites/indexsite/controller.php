@@ -12,7 +12,6 @@
 				<h1 class='text-center'>Beer Forest Gimnázium</h1>
 			<hr align='center'>
 			<div class='row' align='center'>
-				<div align='center'>
 		</div>
 		<div>Elérhetőségek: <br> Cím: Kerekerdő közepe <br> Telefonszám: 123456789 <br> Email cím: principal01@erdei.com</div>
 				<div align='center'>";
